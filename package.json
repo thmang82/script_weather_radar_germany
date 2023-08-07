@@ -1,6 +1,6 @@
 {
     "name": "script-weather-radar_germany",
-    "version": "0.9.3",
+    "version": "0.9.4",
     "description": "define at src/spec.ts",
     "main": "src/script.ts",
     "config": {
@@ -12,6 +12,7 @@
         "compile":          "node ${npm_package_config_cli} compile || true",
         "install":          "node ${npm_package_config_cli} install || true",
         "toolchain:update": "node ${npm_package_config_cli} toolchain update",
-        "update":           "npm run toolchain:update"
+        "update":           "npm run toolchain:update",
+        "install:hooks":    "cp -f ../toolchain/tools/git/* .git/hooks/."
     }
 }

@@ -1,17 +1,18 @@
 {
     "compilerOptions": {
         "strict": true, 
-        "alwaysStrict": true, 
-        "suppressImplicitAnyIndexErrors": true,
+        "alwaysStrict": true,
         "noUnusedParameters": true,
         "noUnusedLocals": true,
+        "noImplicitReturns": true,
         "esModuleInterop": true,
-        "target": "es2018",
+        "target": "es6",
         "module": "commonjs",
         "sourceMap": true,
         "rootDir": "./../",
         "baseUrl": "./",
-        "outDir": "gen/js_out",
+        "outDir": "js_out",
+        "skipLibCheck": true,
         "paths": {
             "@script_types/*": [ "../toolchain/types/*" ],
             "*": [ "../toolchain/types/ts_lib/*" ]

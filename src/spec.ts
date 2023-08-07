@@ -7,10 +7,10 @@ export const specification: DataSource.Specification = {
     // ---
     provides: [ "weather_radar" ],
     // ---
-    version:   "0.9.2",
+    version:   "0.9.4",
     // ---
     translations: {
-        'en': { 
+        'en': {
             name: "Rain Radar Germany", 
             description: "Based on raw data from DWD."
         }
